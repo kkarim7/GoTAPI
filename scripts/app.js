@@ -82,39 +82,3 @@ document.getElementById("selectCharNameBtn").addEventListener("click", () => {
       });
   }
 });
-
-// fetch(URL)
-//   .then((response) => response.json())
-//   .then((data) => {
-//     data.find((char) => {
-//       if (char.name === selectCharNameInput) {
-//         document.getElementById("characterName").innerHTML = char.name
-//           ? char.name
-//           : char.aliases;
-//         document.getElementById(
-//           "characterData"
-//         ).innerHTML = `<h3>Aliases: ${char.aliases}</h3><br/>
-//         <h3>Gender: ${char.gender}</h3><br/>
-//         <h3>Culture: ${char.culture}</h3><br/>
-//         <h3>Played By: ${char.playedBy}</h3><br/>`;
-//         console.log(char);
-//       }
-//     });
-//     console.log(data);
-
-// const testArray = [
-//   { name: "Jon", age: 32 },
-//   { name: "Aerys", age: 34 },
-// ];
-
-// const findChar = testArray.find((character) => {
-//   return character.name === "Jon";
-// });
-
-// const testArray = fetch(
-//   "https://www.anapioficeandfire.com/api/characters?page=1&pageSize=50"
-// )
-//   .then((response) => response.json())
-//   .then((character) => {
-//     console.log(character);
-//   });
